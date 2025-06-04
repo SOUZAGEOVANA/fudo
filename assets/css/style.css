@@ -1,0 +1,23 @@
+#login{
+    width: 100px ; /*aumenta a largura */ 
+    height: 40px;  /*aumentar a altura */
+    background-color: rgb(206, 46, 46);
+    color:aliceblue;
+    border-radius: 20px; /* tornar as bordas redondas */
+    border: none;
+}
+ 
+
+.ab{
+    background-color: blue;
+
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner{
+    height: 400px;
+    width: 400px;
+}       

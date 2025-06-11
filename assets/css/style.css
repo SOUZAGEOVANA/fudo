@@ -1,46 +1,103 @@
-#login{
-    width: 100px ; /*aumenta a largura */ 
-    height: 40px;  /*aumentar a altura */
-    background-color: rgb(206, 46, 46);
-    color:aliceblue;
-    border-radius: 20px; /* tornar as bordas redondas */
+#login {
+    width: 100px;
+    /*aumenta a largura*/
+    height: 40px;
+    /*aumentar a altura*/
+    background-color: red;
+    color: #ffffff;
+    border-radius: 20px;
+    /*torna as bordas redondas*/
     border: none;
+    /*tira as bordas*/
 }
- 
 
-.ab{
-    background-color: blue;
-
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
-#navbar{
+
+#navbar {
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #banner{
-    height: 400px;
-    width: 400px;
-}       
+    height: 600px;
+    width: 600px;
+}
 
 .texto-banner{
-    font-size: 50px;
-    font-weight: bolder;
-
+    font-size: 60px;
+    font-weight:bolder;
 }
 
 .caixa-texto{
-    width: 500px;
-    background-color: rgb(175, 188, 192);
+    width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+   
 }
+
 .caixa-estrutura{
     display: flex;
     flex-direction: row;
+
 }
+
 .titulo{
     display: flex;
     align-items: center;
+}
+
+#food{
+    color: rgb(206, 46, 46);
+}
+
+#btn-get{
+    width: 100px;
+    /*aumenta a largura*/
+    height: 40px;
+    /*aumentar a altura*/
+    background-color: rgb(192, 174, 174);
+    color: #cec6c6;
+    border-radius: 20px;
+    /*torna as bordas redondas*/
+    border: none;
+    /*tira as bordas*/  
+}
+
+.titulo-secundario{
+    color: red;
+    font-weight: 500;
+
+}
+.caixatitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    background-color: blue;
+    width: 400px;  
+}
+
+.titulo-primario{
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+.caixa-frente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 18px;
+
 }

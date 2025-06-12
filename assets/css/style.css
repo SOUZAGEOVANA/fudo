@@ -62,11 +62,11 @@
 
 #btn-get{
     width: 100px;
-    /*aumenta a largura*/
+    /*aumenta a larguraz*/
     height: 40px;
     /*aumentar a altura*/
-    background-color: rgb(192, 174, 174);
-    color: #cec6c6;
+    background-color: red;
+    color: #ffffff;
     border-radius: 20px;
     /*torna as bordas redondas*/
     border: none;
@@ -84,20 +84,76 @@
     align-items: center;
     flex-direction: column;
     text-align:center;
-    background-color: blue;
     width: 400px;  
+    margin: 50px;
+    height: 40px;
 }
 
 .titulo-primario{
     font-weight: bolder;
     font-size: 40px;
+    
 
+}
+
+.caixa-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   width: 100%;
+   
+
+    
+}
+.class-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
 }
 .caixa-frente{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 200px;
-    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+}
+#imagem1 {
+    width: 200px;
 
 }
+.caixa-pizza > img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3px;
+    width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.caixa-card > img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3px;
+    text-align: center;
+     width: 200px;
+     border-radius: 10px;
+     align-items: center;
+} 
+.caixa-pizza-delicia > img{
+    display:flex;
+    justify-content: center;
+    margin: 3px;
+    text-align: center;
+    width: 200px;
+    border-radius: 15px;
+    align-items: center;
+
+}
+   

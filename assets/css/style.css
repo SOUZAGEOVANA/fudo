@@ -121,39 +121,49 @@
     justify-content: center;
     text-align: center;
 }
-#imagem1 {
-    width: 200px;
+    #imagem1 {
+        width: 200px;
+    
+    }
+    
+    .pizza-estrutura {
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .caixa-pizza {
+        display: flex;
+        justify-content:center;
+        gap: 90px; 
+        flex-wrap: wrap; 
+      }
+      
+      .caixa-imagem {
+        width: 300px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 80px;
+      }
+      
+      .caixa-imagem img {
+        width: 300px;
+        height: 350px;
+        border-radius: 20px;
+      }
+      
+    
+    .titulo2{
+        color: red;
+        font-weight: 500;  
+    }
+    
+    .texto2{
+        font-weight: bolder;
+        font-size: 40px;
+        width: 450px;
+        
+        
+    }
 
-}
-.caixa-pizza > img{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 3px;
-    width: 200px;
-    max-height: 200px;
-    border-radius: 10px;
-    align-items: center;
 
-}
-.caixa-card > img{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 3px;
-    text-align: center;
-     width: 200px;
-     border-radius: 10px;
-     align-items: center;
-} 
-.caixa-pizza-delicia > img{
-    display:flex;
-    justify-content: center;
-    margin: 3px;
-    text-align: center;
-    width: 200px;
-    border-radius: 15px;
-    align-items: center;
-
-}
    

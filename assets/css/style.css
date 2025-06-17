@@ -161,9 +161,35 @@
         font-weight: bolder;
         font-size: 40px;
         width: 450px;
-        
-        
     }
+    .texto{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
 
+        width: 800px;
+    }
+       
+     .texto{
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction:column;
+        text-align: center;
 
-   
+        width: 800px;
+     }
+     button{
+        border: 10px;
+
+     }
+
+     .texto-caixa{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+     }
